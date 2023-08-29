@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    font-family: 'Digital-7 Mono', monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .clock-container {
+    background-color: green;
+    padding: 2rem;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  #current-time {
+    font-size: 4rem;
+    color: white;
+    margin-top: 0;
+  }
